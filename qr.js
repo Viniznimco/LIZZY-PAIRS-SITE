@@ -75,30 +75,30 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "KANGO~" + string_session;
+                        let md = "CHRIST~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there KANGO-XMD User! 👋🏻* 
+                        let desc = `*Hello there JUNIOR-MD User! 👋🏻* 
 
 > Do not share your session id with your gf 😂.
 
- *Thanks for using KANGO-XMD 🚩* 
+ *Thanks for using JUNIOR-MD 🚩* 
 
 > Join WhatsApp Channel :- ⤵️
  
-https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E
+https://whatsapp.com/channel/0029Vb6jFwj89ine3b7qHB1y
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/OfficialKango/KANGO-XMD
+https://github.com/Viniznimco/JUNIOR-MD
 
-> *© Powered BY Hector Manuel 🖤*`; 
+> *© Powered BY MSNAPDRAGON 🖤*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "Hector Manuel",
+title: "VINIZIAZ NIMCO",
 thumbnailUrl: "https://i.imgur.com/GVW7aoD.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E",
+sourceUrl: "https://whatsapp.com/channel/0029Vb6jFwj89ine3b7qHB1y",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -107,14 +107,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploy KANGO-XMD*\n\n ◦ *Github:* https://github.com/OfficialKango/KANGO-XMD`;
+                            let desc = `*Don't Share with anyone this code use for deploy JUNIOR-MD*\n\n ◦ *Github:* https://github.com/Viniznimco/JUNIOR-MD`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "KANGO-XMD",
+title: "JUNIOR-MD",
 thumbnailUrl: "https://i.imgur.com/GVW7aoD.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E",
+sourceUrl: "https://whatsapp.com/channel/0029Vb6jFwj89ine3b7qHB1y",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
